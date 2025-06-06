@@ -12,7 +12,7 @@ return {
 			"██║ ╚████║ ███████╗╚██████╔╝  ╚████╔╝  ██║ ██║ ╚═╝ ██║",
 			"╚═╝  ╚═══╝ ╚══════╝ ╚═════╝    ╚═══╝   ╚═╝ ╚═╝     ╚═╝"
 		}
-		
+
 		dashboard.section.footer.val = cowlib.cowsay(require "alpha.fortune"())
 
 		dashboard.section.buttons.val = {
