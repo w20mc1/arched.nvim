@@ -2,7 +2,7 @@ return {
 	"goolord/alpha-nvim",
 	config = function ()
 		local dashboard = require "alpha.themes.dashboard"
-		local cowlib = require "lib.cowsay"
+		local cowlib = require "cfg.lib.cowsay"
 
 		dashboard.section.header.val = {
 			"███╗   ██╗ ███████╗ ██████╗  ██╗   ██╗ ██╗ ███╗   ███╗",
