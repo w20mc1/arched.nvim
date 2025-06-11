@@ -1,6 +1,6 @@
 function Setup_leader()
-	vim.o.mapleader = " "
-	vim.o.maplocalleader = " "
+	vim.g.mapleader = " "
+	vim.g.maplocalleader = " "
 end
 vim.o.termguicolors = true
 vim.o.number = true
