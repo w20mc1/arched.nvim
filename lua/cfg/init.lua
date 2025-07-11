@@ -1,3 +1,3 @@
-require "cfg.vim"
-require "bootstrap"
-require "cfg.keybinds"
+require("cfg.vim")
+require("bootstrap")
+require("cfg.keybinds")
