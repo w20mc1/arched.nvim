@@ -13,5 +13,9 @@ return {
   },
   ---@module "neo-tree"
   ---@type neotree.Config?
-  opts = {},
+  opts = {
+	  window = {
+		  position = "right"
+	  }
+  },
 }
