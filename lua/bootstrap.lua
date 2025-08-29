@@ -20,5 +20,6 @@ require("lazy").setup({
 	spec = {
 		{ import = "cfg.plugins" },
 		{ import = "cfg.plugins.lsp" },
+		{ import = "cfg.plugins.format" },
 	},
 })

@@ -20,7 +20,7 @@ return {
 			dashboard.button("n", " New file", "<cmd>ene<CR>"),
 			dashboard.button("SPC ff", " Find files"),
 			dashboard.button("SPC fr", " Recent"),
-			dashboard.button("SPC lu", "󰚰 Update lazy"),
+			dashboard.button("SPC lu", "󰚰 Update lazy.nvim"),
 			dashboard.button("q", " Quit", "<cmd>qa!<CR>"),
 		}
 

@@ -2,6 +2,7 @@ return {
 	"nvim-treesitter/nvim-treesitter",
 	branch = "main",
 	lazy = false,
+	build = ":TSUpdate",
 	config = function()
 		require("nvim-treesitter").install({
 			"c",
@@ -20,7 +21,6 @@ return {
 				-- thx ai
 
 				local buftype = vim.bo.buftype
-
 				-- Skip if buffer is not normal or if it's a file browser (heuristic)
 				if buftype ~= "" then
 					return
