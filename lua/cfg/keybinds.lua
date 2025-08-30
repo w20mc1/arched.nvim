@@ -4,9 +4,9 @@ local lazy = require("lazy")
 -- thx ai
 local function closeWindow()
 	local current = vim.api.nvim_get_current_buf()
-	vim.cmd("bprevious") -- Switch to previous buffer first
+	vim.cmd.bprevious() -- Switch to previous buffer first
 	vim.schedule(function()
-		vim.cmd("bdelete " .. current) -- Then delete the original one
+		vim.cmd.bdelete(current) -- Then delete the original one
 	end)
 end
 
